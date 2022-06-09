@@ -14,7 +14,7 @@ const routes = require('./routes/v1');
 const { errorConverter, errorHandler } = require('./middlewares/error');
 const ApiError = require('./utils/ApiError');
 
-// app for testing commit
+// app for testing commit for issue code
 const app = express();
 
 if (config.env !== 'test') {
