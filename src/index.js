@@ -11,6 +11,8 @@ mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
   });
 });
 
+const getCmdArgs = () => process.argv.slice(2);
+getCmdArgs();
 // this is second file to commit
 
 const exitHandler = () => {
