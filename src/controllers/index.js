@@ -5,6 +5,4 @@ module.exports.userController = require('./user.controller');
 
 // Or for a pull request by Fork
 
-
-
 /// DO HERE FOR A PULL REQUEST
